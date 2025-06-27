@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>LUXURY RIDES</title>
+  </head>
+  <body>
+    <header>
+      <!--Navigation Bar-->
+      <nav id="navbar">
+        <h1 class="logo">Luxury RIdes</h1>
+        <ul>
+          <li><a href="#Booking-form">Book</a></li>
+          <li><a href="#contact-page">Contact us</a></li>
+          <li><a href="#About-page">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--User fills in their personal info, all inputs are required-->
+      <div class="bookings">
+      <form id="Booking-form">
+        <div class="inputs">
+          <h2>BOOK NOW!</h2>
+          <h3 class="form-headings"
+            >please fill in your personal information</h3
+          >
+          <input id="name" type="text" placeholder="Full Name(John Doe)" required />
+          <input id="phoneNumber"
+            type="number"
+            placeholder="Phone number(0712345678)"
+            required />
+          <input id="residence" type="text" placeholder="Residence(Rongai,Nairobi)" required />
+          <input id="date" type="date" name="departureDate" required />
+          <!--User can easily select their route of travel(destination and depature)-->
+          <select id="route-selector" name="route" required>
+            <option value="">Select Route</option>
+            <option value="Nairobi to Eldoret">Nairobi → Eldoret</option>
+            <option value="Eldoret to Nairobi">Eldoret → Nairobi</option>
+          </select>
+          <!--Users can easily select their depature time(the sacco departs cars every 3 hours)-->
+          <select id="time-selctor" name="time" required>
+            <option value="">Departure Time</option>
+            <option value="6:00 AM">6:00 AM</option>
+            <option value="9:00 AM">9:00 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="3:00 PM">3:00 PM</option>
+            <option value="6:00 PM">6:00 PM</option>
+            <option value="9:00 PM">9:00 PM</option>
+          </select>
+
+          <!--Now the user can select their seat(s)-->
+          <h3 class="form-headings"> Choose Your Seat(s) 1000kes each</h3>
+          <div class="seat-grid">
+            <!-- 14 seat buttons -->
+            <button type="button" class="seat">Seat 1</button>
+            <button type="button" class="seat">Seat 2</button>
+            <button type="button" class="seat">Seat 3</button>
+            <button type="button" class="seat">Seat 4</button>
+            <button type="button" class="seat">Seat 5</button>
+            <button type="button" class="seat">Seat 6</button>
+            <button type="button" class="seat">Seat 7</button>
+            <button type="button" class="seat">Seat 8</button>
+            <button type="button" class="seat">Seat 9</button>
+            <button type="button" class="seat">Seat 10</button>
+            <button type="button" class="seat">Seat 11</button>
+            <button type="button" class="seat">Seat 12</button>
+            <button type="button" class="seat">Seat 13</button>
+            <button type="button" class="seat">Seat 14</button>
+          </div>
+          <!--Checkout button that displays current users total charges-->
+          <div id="bookingTotal" class="floating-total"
+            >Total: KES 0 <br />
+            <button type="submit">Checkout</button>
+          </div>
+          <!-- Bookings will load here -->
+        </div>
+      </form>
+      <div class="booking-history">
+        <h2>Your Booking History</h2>
+        <ol id="booking-history-list">
+          <!-- Bookings will load here dynamically -->
+        </ol>
+      </div>
+      </div>
+      <!--For users to be able to get Luxury Rides contact info-->
+      <div id="contact-page">
+        <h3 class="headers">Contact Us</h3>
+        <p>
+          Do you have any questions, concerns, or suggestions? Our dedicated
+          customer support team is here for you 24/7. <br />
+          Whether you need help with booking, payment, or just want to give
+          feedback, don’t hesitate to reach out. <br />
+          We value every passenger and strive to make your Luxury Rides
+          experience seamless and stress-free.</p
+        >
+        <br />
+        📞 +254-712-345-678 <br />
+        📨 luxuryrides@gmail.com
+
+        <div class="inquiry-form">
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" id="contact-name" placeholder="Your Name" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="contact-email" placeholder="Your Email" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="tel" id="contact-phone" placeholder="Phone Number (Optional)">
+            </div>
+            
+            <div class="form-group">
+              <select id="contact-subject" required>
+                <option value="">Select Inquiry Type</option>
+                <option value="booking">Booking Assistance</option>
+                <option value="payment">Payment Issues</option>
+                <option value="feedback">Feedback/Suggestions</option>
+                <option value="complaint">Complaint</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="contact-message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+      <!--Get more information about Luxury rides-->
+      <div id="About-page">
+        <h2 class="headers">About Luxury Rides</h2>
+        <p
+          ><strong>Luxury Rides</strong> is your modern solution for booking
+          premium transportation <br />across Kenya's most popular intercity
+          routes — <strong>Nairobi, Nakuru, and Eldoret</strong>.</p
+        >
+
+        <h4 class="headers-2"> Our Mission</h4>
+        <p
+          >To ease your journey by removing the hassle of long queues, cash
+          payments, <br />and booking uncertainties — all from the comfort of
+          your phone.</p>
+      </div>
+    </main>
+    <footer> <p>LuxuryRides @2025</p> </footer>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
