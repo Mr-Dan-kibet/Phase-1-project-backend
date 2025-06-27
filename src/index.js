@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const pollPaymentStatus = async () => {
             try {
               const statusRes = await fetch(
-                `http://localhost:5000/mpesa/status/${booking.phoneNumber}`
+                `${BASE_URL}/mpesa/status/${booking.phoneNumber}`
               );
 
               if (!statusRes.ok) throw new Error("Status check failed");
