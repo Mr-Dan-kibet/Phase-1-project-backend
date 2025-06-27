@@ -1,0 +1,227 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "bookings": [
+    {
+      "name": "dadadd",
+      "phoneNumber": "3333333333",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-07-11",
+      "route": "Eldoret to Nairobi",
+      "departureTime": "6:00 AM",
+      "selectedSeats": [
+        "Seat 1"
+      ],
+      "seats": 1,
+      "paymentStatus": "Completed",
+      "mpesaCode": "MANUAL_PAYMENT",
+      "id": 22
+    },
+    {
+      "name": "yy",
+      "phoneNumber": "23",
+      "residence": "Kibera, Nairobi",
+      "departureDate": "2025-06-27",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "6:00 AM",
+      "selectedSeats": [
+        "Seat 14",
+        "Seat 6",
+        "Seat 7",
+        "Seat 8",
+        "Seat 12"
+      ],
+      "seats": 5,
+      "paymentStatus": "Completed",
+      "mpesaCode": "MANUAL_PAYMENT",
+      "id": 23
+    },
+    {
+      "name": "yy",
+      "phoneNumber": "5454",
+      "residence": "Kibera, Nairobi",
+      "departureDate": "2025-06-28",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "9:00 AM",
+      "selectedSeats": [
+        "Seat 2"
+      ],
+      "seats": 1,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 24
+    },
+    {
+      "name": "dadadd",
+      "phoneNumber": "44",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-06-28",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "9:00 AM",
+      "selectedSeats": [
+        "Seat 2",
+        "Seat 6",
+        "Seat 10",
+        "Seat 14"
+      ],
+      "seats": 4,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 25
+    },
+    {
+      "name": "xsx",
+      "phoneNumber": "3",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-07-12",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "12:00 PM",
+      "selectedSeats": [
+        "Seat 4"
+      ],
+      "seats": 1,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 26
+    },
+    {
+      "name": "xsx",
+      "phoneNumber": "45",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-07-12",
+      "route": "Eldoret to Nairobi",
+      "departureTime": "9:00 AM",
+      "selectedSeats": [
+        "Seat 2"
+      ],
+      "seats": 1,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 27
+    },
+    {
+      "name": "xsx",
+      "phoneNumber": "000000000000",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-06-22",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "12:00 PM",
+      "selectedSeats": [
+        "Seat 2",
+        "Seat 6"
+      ],
+      "seats": 2,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 29
+    },
+    {
+      "name": "brother ortum",
+      "phoneNumber": "333333333",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-06-28",
+      "route": "Eldoret to Nairobi",
+      "departureTime": "6:00 AM",
+      "selectedSeats": [
+        "Seat 1",
+        "Seat 14"
+      ],
+      "seats": 2,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 30
+    },
+    {
+      "name": "dadadd amin",
+      "phoneNumber": "00000",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-06-28",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "9:00 AM",
+      "selectedSeats": [
+        "Seat 2",
+        "Seat 6"
+      ],
+      "seats": 2,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 33
+    },
+    {
+      "name": "dadadd",
+      "phoneNumber": "0900",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-06-28",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "9:00 AM",
+      "selectedSeats": [
+        "Seat 2"
+      ],
+      "seats": 1,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 34
+    },
+    {
+      "name": "dadadd amin",
+      "phoneNumber": "90990",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-06-28",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "9:00 AM",
+      "selectedSeats": [
+        "Seat 3"
+      ],
+      "seats": 1,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 35
+    },
+    {
+      "name": "brother ortum",
+      "phoneNumber": "67676767",
+      "residence": "kibera, Nairobi",
+      "departureDate": "2025-07-05",
+      "route": "Nairobi to Eldoret",
+      "departureTime": "9:00 AM",
+      "selectedSeats": [
+        "Seat 7",
+        "Seat 11"
+      ],
+      "seats": 2,
+      "paymentStatus": "Pending",
+      "mpesaCode": "",
+      "id": 36
+    },
+    {
+      "name": "dadadd amin",
+      "phoneNumber": "000000",
+      "residence": "dedee, eldoret",
+      "departureDate": "2025-06-28",
+      "route": "Eldoret to Nairobi",
+      "departureTime": "3:00 PM",
+      "selectedSeats": [
+        "Seat 2"
+      ],
+      "seats": 1,
+      "paymentStatus": "Completed",
+      "mpesaCode": "MANUAL_PAYMENT",
+      "id": 37
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
